@@ -1,0 +1,15 @@
+EX1- Java
+
+Scanner entrada = new Scanner(System.in);
+  
+  int n;
+  System.out.println("Digite um numero:");
+  n = entrada.nextInt();
+  
+  if(n%2 == 0){
+   System.out.println("Numero é Par");
+  }
+  
+  else if(n%2 == 1){
+   System.out.println("Numero é Impar");
+  }
